@@ -1,0 +1,72 @@
+Total FAILED logs found: 25
+
+FAILED log: 2024-11-15t05:11:16.186827-05:00 aneesh-vmware20-1 dbus-daemon[903]: [system] failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+
+FAILED log: 2024-11-15t06:00:26.925557-05:00 aneesh-vmware20-1 dbus-daemon[971]: [system] failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+
+FAILED log: 2024-11-15t06:20:39.653735-05:00 aneesh-vmware20-1 sudo: pam_unix(sudo-i:auth): conversation failed
+
+FAILED log: 2024-11-15t06:42:03.581147-05:00 aneesh-vmware20-1 gdm-password]: pam_unix(gdm-password:auth): conversation failed
+
+FAILED log: 2024-11-15t06:46:17.697499-05:00 aneesh-vmware20-1 sudo: pam_unix(sudo-i:auth): conversation failed
+
+FAILED log: 2024-11-15t06:49:20.586383-05:00 aneesh-vmware20-1 sudo: pam_unix(sudo-i:auth): conversation failed
+
+FAILED log: 2024-11-15t06:49:49.764410-05:00 aneesh-vmware20-1 gdm-password]: pam_unix(gdm-password:auth): conversation failed
+
+FAILED log: 2024-11-15t06:56:06.360735-05:00 aneesh-vmware20-1 sudo: pam_unix(sudo-i:auth): conversation failed
+
+FAILED log: 2024-11-15t07:08:32.723488-05:00 aneesh-vmware20-1 sudo: pam_unix(sudo-i:auth): conversation failed
+
+FAILED log: 2024-11-15t07:08:59.154406-05:00 aneesh-vmware20-1 sudo: pam_unix(sudo:auth): conversation failed
+
+FAILED log: 2024-11-15t12:16:39.452744-05:00 aneesh-vmware20-1 dbus-daemon[967]: [system] failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+
+FAILED log: 2024-11-15t12:23:11.553488-05:00 aneesh-vmware20-1 sudo: pam_unix(sudo:auth): conversation failed
+
+FAILED log: 2024-11-15t12:45:21.700519-05:00 aneesh-vmware20-1 gdm-password]: pam_unix(gdm-password:auth): conversation failed
+
+FAILED log: 2024-11-15t13:47:16.740751-05:00 aneesh-vmware20-1 gdm-password]: pam_unix(gdm-password:auth): conversation failed
+
+FAILED log: 2024-11-15t13:53:47.442142-05:00 aneesh-vmware20-1 gdm-password]: pam_unix(gdm-password:auth): conversation failed
+
+FAILED log: 2024-11-29t13:34:50.338461-05:00 aneesh-vmware20-1 dbus-daemon[1007]: [system] failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+
+FAILED log: 2024-11-29t13:41:50.577261-05:00 aneesh-vmware20-1 dbus-daemon[1007]: [system] failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+
+FAILED log: 2024-11-29t14:02:22.974207-05:00 aneesh-vmware20-1 dbus-daemon[1007]: [system] failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+
+FAILED log: 2024-11-29t14:19:27.794013-05:00 aneesh-vmware20-1 sudo: pam_unix(sudo:auth): conversation failed
+
+FAILED log: 2024-11-29t15:16:23.278156-05:00 aneesh-vmware20-1 dbus-daemon[1007]: [system] failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+
+FAILED log: 2024-11-29t15:16:49.047621-05:00 aneesh-vmware20-1 dbus-daemon[1007]: [system] failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+
+FAILED log: 2024-11-29t15:17:22.633889-05:00 aneesh-vmware20-1 dbus-daemon[1007]: [system] failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+
+FAILED log: 2024-11-29t15:18:43.756128-05:00 aneesh-vmware20-1 dbus-daemon[1007]: [system] failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+
+FAILED log: 2024-11-29t15:21:45.948614-05:00 aneesh-vmware20-1 dbus-daemon[1007]: [system] failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+
+FAILED log: 2024-11-29t15:58:21.789300-05:00 aneesh-vmware20-1 dbus-daemon[1007]: [system] failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+
+
+Total ERROR logs found: 8
+
+ERROR log: 2024-11-15t12:39:30.085467-05:00 aneesh-vmware20-1 polkitd[1000]: error converting subject to js object: gdbus.error:org.freedesktop.dbus.error.namehasnoowner: could not get credentials of name ':1.130': no such name
+
+ERROR log: 2024-11-15t12:39:30.096702-05:00 aneesh-vmware20-1 polkitd[1000]: error converting subject to js object: gdbus.error:org.freedesktop.dbus.error.namehasnoowner: could not get credentials of name ':1.132': no such name
+
+ERROR log: 2024-11-15t12:39:30.118532-05:00 aneesh-vmware20-1 polkitd[1000]: error converting subject to js object: gdbus.error:org.freedesktop.dbus.error.namehasnoowner: could not get credentials of name ':1.136': no such name
+
+ERROR log: 2024-11-15t12:39:30.130958-05:00 aneesh-vmware20-1 polkitd[1000]: error converting subject to js object: gdbus.error:org.freedesktop.dbus.error.namehasnoowner: could not get credentials of name ':1.138': no such name
+
+ERROR log: 2024-11-15t12:39:30.186223-05:00 aneesh-vmware20-1 polkitd[1000]: error converting subject to js object: gdbus.error:org.freedesktop.dbus.error.namehasnoowner: could not get credentials of name ':1.148': no such name
+
+ERROR log: 2024-11-15t12:39:30.252736-05:00 aneesh-vmware20-1 polkitd[1000]: error converting subject to js object: gdbus.error:org.freedesktop.dbus.error.namehasnoowner: could not get credentials of name ':1.160': no such name
+
+ERROR log: 2024-11-15t12:39:30.262469-05:00 aneesh-vmware20-1 polkitd[1000]: error converting subject to js object: gdbus.error:org.freedesktop.dbus.error.namehasnoowner: could not get credentials of name ':1.162': no such name
+
+ERROR log: 2024-11-15t12:39:30.297246-05:00 aneesh-vmware20-1 polkitd[1000]: error converting subject to js object: gdbus.error:org.freedesktop.dbus.error.namehasnoowner: could not get credentials of name ':1.168': no such name
+
+
