@@ -1,4 +1,4 @@
-Total FAILED logs found: 25
+Total FAILED logs found: 29
 
 FAILED log: 2024-11-15t05:11:16.186827-05:00 aneesh-vmware20-1 dbus-daemon[903]: [system] failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 
@@ -49,6 +49,14 @@ FAILED log: 2024-11-29t15:18:43.756128-05:00 aneesh-vmware20-1 dbus-daemon[1007]
 FAILED log: 2024-11-29t15:21:45.948614-05:00 aneesh-vmware20-1 dbus-daemon[1007]: [system] failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 
 FAILED log: 2024-11-29t15:58:21.789300-05:00 aneesh-vmware20-1 dbus-daemon[1007]: [system] failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+
+FAILED log: 2024-11-29t16:45:10.706639-05:00 aneesh-vmware20-1 polkitd[1014]: operator of unix-session:2 failed to authenticate to gain authorization for action org.gtk.vfs.file-operations for unix-process:3009:6813 [/usr/bin/nautilus --gapplication-service] (owned by unix-user:aneesh)
+
+FAILED log: 2024-11-29t16:45:48.803655-05:00 aneesh-vmware20-1 dbus-daemon[974]: [system] failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+
+FAILED log: 2024-11-29t16:52:13.503233-05:00 aneesh-vmware20-1 dbus-daemon[974]: [system] failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+
+FAILED log: 2024-12-03t00:05:46.424151-05:00 aneesh-vmware20-1 dbus-daemon[1056]: [system] failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 
 
 Total ERROR logs found: 8
