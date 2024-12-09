@@ -15,9 +15,9 @@ This cybersecurity system has been designed to monitor and enhance the security 
 ### Steps to Install:
 1. Clone the repository:
     git clone [https://github.com/Pearboy/CYSE-Monitoring-System.git](https://github.com/Pearboy/CYSE-Monitoring-System.git)
-2. Navigate to the projecet directory
+2. Navigate to the projecet directory:
     cd CYSE-Monitoring-System
-3. Install neccessary Python liberies: Run the following command to install all the required depedencies from requirements.txt
+3. Install neccessary Python liberies: Run the following command to install all the required depedencies from requirements.txt:
     pip install -r scripts/requirements.txt
 4. Install Nmap
 - For Linux:
