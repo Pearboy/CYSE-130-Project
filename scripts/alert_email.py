@@ -1,8 +1,9 @@
 import smtplib
+import psutil
 from email.message import EmailMessage
 
-email = 'aneeshganesh8@gmail.com' # email address
-app_password = 'bkdv bmeo bnjg omzp' # app password for gmail
+email = 'cyse130demo@gmail.com' # demo gmail address
+app_password = 'getk ysgz eyqy iwbu' # app password for gmail
 
 # Function to send an alert email
 def send_alert(subject, body):
@@ -18,6 +19,14 @@ def send_alert(subject, body):
     with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
         smtp.login(email, app_password) # Login with email and app password
         smtp.send_message(msg)
+
+# Get and print CPU usage
+cpu_usage = psutil.cpu_percent(interval=1)
+print(f"CPU Usage: {cpu_usage}%")
+
+# Get and print Memory usage
+memory_info = psutil.virtual_memory()
+print(f"Memory Usage: {memory_info.percent}%\n")
 
 # Send an alert when CPU usage is high
 if cpu_usage > 90:
