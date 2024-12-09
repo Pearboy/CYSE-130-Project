@@ -1,5 +1,5 @@
 import os
-import psutil #Requires installing pstuil module
+import psutil 
 
 def log_performance():
     # Get the directory of the script
