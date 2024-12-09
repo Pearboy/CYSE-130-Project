@@ -18,7 +18,7 @@ This cybersecurity system has been designed to monitor and enhance the security 
 2. Navigate to the projecet directory
     cd CYSE-Monitoring-System
 3. Install neccessary Python liberies: Run the following command to install all the required depedencies from requirements.txt
-    pip install -r ./Cybersecurity-system/Scripts/requirements.txt
+    pip install -r scripts/requirements.txt
 4. Install Nmap
 - For Linux
     sudo apt install namp
@@ -30,13 +30,13 @@ This cybersecurity system has been designed to monitor and enhance the security 
 ## Usage
 
 - Tracks CPU and memory usage and generates a performance log file. Alerts are printed for high CPU usage.
-    Run: python "Performance Log.py"
+    Run: python "scripts/performance_log.py"
 - Performs a network scan on a target using nmap and captures packets to monitor source and destination IPs
-    Run: python "Scan.py"
+    Run: python "scripts/scan.py"
 - Analyzes log files for errors or failed events and generates a summary report
-    Run: python "Summary Report.py"
+    Run: python "scripts/summary_report.py"
 - Sends an email notification if CPU usage exceeds a specified threshold
-    Run: python "Alert Email.py"
+    Run: python "scripts/alert_email.py"
 
 ## Team Members 
 - Ethan Le: Python Developer/Data Analyst
