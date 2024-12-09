@@ -6,7 +6,7 @@ def log_performance():
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
     # Construct the path for the results folder
-    results_folder = os.path.join(script_dir, '..', 'results')
+    results_folder = os.path.join(script_dir, '..', 'Results')
 
     # Ensure the results folder exists
     os.makedirs(results_folder, exist_ok=True)
