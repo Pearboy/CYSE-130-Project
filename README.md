@@ -20,11 +20,11 @@ This cybersecurity system has been designed to monitor and enhance the security 
 3. Install neccessary Python liberies: Run the following command to install all the required depedencies from requirements.txt
     pip install -r scripts/requirements.txt
 4. Install Nmap
-- For Linux
+- For Linux:
     sudo apt install namp
-- For MacOS
+- For MacOS:
     brew install nmap
-- For Windows
+- For Windows:
     Download and install from the [offical Nmap website](https://nmap.org/download.html#windows)
 
 ## Usage
