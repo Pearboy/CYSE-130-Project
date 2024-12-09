@@ -18,7 +18,7 @@ This cybersecurity system has been designed to monitor and enhance the security 
 2. Navigate to the projecet directory:
     cd CYSE-Monitoring-System
 3. Install neccessary Python liberies: Run the following command to install all the required depedencies from requirements.txt:
-    pip install -r scripts/requirements.txt
+    pip install -r Scripts/requirements.txt
 4. Install Nmap
 - For Linux:
     sudo apt install nmap
