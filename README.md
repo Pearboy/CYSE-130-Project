@@ -21,7 +21,7 @@ This cybersecurity system has been designed to monitor and enhance the security 
     pip install -r scripts/requirements.txt
 4. Install Nmap
 - For Linux:
-    sudo apt install namp
+    sudo apt install nmap
 - For MacOS:
     brew install nmap
 - For Windows:
