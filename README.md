@@ -31,11 +31,11 @@ This cybersecurity system has been designed to monitor and enhance the security 
 
 - Tracks CPU and memory usage and generates a performance log file. Alerts are printed for high CPU usage.
     Run: python "scripts/performance_log.py"
-- Performs a network scan on a target using nmap and captures packets to monitor source and destination IPs
+- Performs a network scan on a target using nmap and captures packets to monitor source and destination IPs.
     Run: python "scripts/scan.py"
-- Analyzes log files for errors or failed events and generates a summary report
+- Analyzes log files for errors or failed events and generates a summary report.
     Run: python "scripts/summary_report.py"
-- Sends an email notification if CPU usage exceeds a specified threshold
+- Sends an email notification if CPU usage exceeds a specified threshold.
     Run: python "scripts/alert_email.py"
 
 ## Team Members 
