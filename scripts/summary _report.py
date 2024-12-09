@@ -5,14 +5,8 @@ def read_log_file(file_path):
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
     
-    # Construct the path for the results folder
-    results_folder = os.path.join(script_dir, '..', 'results')
-
-    # Ensure the results folder exists
-    os.makedirs(results_folder, exist_ok=True)
-    
     # Construct the full path to the log file
-    file_path = os.path.join(results_folder, file_path)
+    file_path = os.path.join(script_dir, file_path)
 
     # Read the log file
     with open(file_path, 'r') as file:
