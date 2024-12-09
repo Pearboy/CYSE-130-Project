@@ -2,8 +2,8 @@ import smtplib
 import psutil
 from email.message import EmailMessage
 
-email = 'cyse120demo@gmail.com' # demo gmail address
-app_password = 'dlqu tfuq hsrz exff' # app password for gmail
+email = 'cyse130demo@gmail.com' # demo gmail address
+app_password = 'getk ysgz eyqy iwbu' # app password for gmail
 
 # Function to send an alert email
 def send_alert(subject, body):
