@@ -25,12 +25,12 @@ real-time alerts when CPU usage becomes excessive, generate detailed performance
 3. Install neccessary Python liberies: Run the following command to install all the required depedencies from requirements.txt:
     pip install -r Scripts/requirements.txt
 4. Install Nmap
-- For Linux:
-    sudo apt install nmap
-- For MacOS:
-    brew install nmap
-- For Windows:
-    Download and install from the [offical Nmap website](https://nmap.org/download.html#windows)
+    - For Linux:
+        sudo apt install nmap
+    - For MacOS:
+        brew install nmap
+    - For Windows:
+        Download and install from the [offical Nmap website](https://nmap.org/download.html#windows)
 
 ## Usage
 
