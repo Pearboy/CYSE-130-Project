@@ -1,4 +1,4 @@
-## Project Overview
+# Project Overview
 
 This cybersecurity system has been designed to monitor and enhance the security of a computer system through
 automated performance tracking, vulnerability scanning, and log analysis. The system aims to provide
