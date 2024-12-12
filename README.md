@@ -1,23 +1,28 @@
-## Project Overview: 
-This cybersecurity system has been designed to monitor and enhance the security of a computer system through 
-automated performance tracking, vulnerability scanning, and log analysis. The system aims to provide 
+## Project Overview
+
+This cybersecurity system has been designed to monitor and enhance the security of a computer system through
+automated performance tracking, vulnerability scanning, and log analysis. The system aims to provide
 real-time alerts when CPU usage becomes excessive, generate detailed performance logs, scan networks for
- potential vulnerabilities, and analyze logs for suspicious activities. By utilizing Python scripts and 
- tools such as nmap, this system ensures that potential security threats are identified and addressed 
+ potential vulnerabilities, and analyze logs for suspicious activities. By utilizing Python scripts and
+ tools such as nmap, this system ensures that potential security threats are identified and addressed
  promptly.
 
-## Key Features: 
+## Key Features
+
 - Performance Log: Tracks CPU and memory usage, generates logs, and provides alerts for high CPU usage.
 - Scan: Scans a target system using nmap to identify open ports and running services.
 - Summary Report: Analyzes logs to identify and classify suspicious entries, such as errors or failed events.
 - Alert Email: Sends an email notification when CPU usage exceeds a defined threshold.
 
-## Installation: 
-### Prerequisites:
+## Installation
+
+### Prerequisites
+
 - Python 3.x: Ensure python is install on the system
 - Nmap: This tool is used for network scanning and must be installed
 
-### Steps to Install:
+### Steps to Install
+
 1. Clone the repository:
     git clone [https://github.com/Pearboy/CYSE-Monitoring-System.git](https://github.com/Pearboy/CYSE-Monitoring-System.git)
 2. Navigate to the projecet directory:
@@ -44,7 +49,8 @@ real-time alerts when CPU usage becomes excessive, generate detailed performance
 - Sends an email notification if CPU usage exceeds a specified threshold.
     Run: python "Scripts/alert_email.py"
 
-## Team Members 
+## Team Members
+
 - Ethan Le: Python Developer/Data Analyst
 - Francis Abreu: Project Manager
 - Sai: Data Analyst
