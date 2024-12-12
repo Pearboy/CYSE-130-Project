@@ -1,5 +1,10 @@
 ## Project Overview: 
-This cybersecurity system has been designed to monitor and enhance the security of a computer system through automated performance tracking, vulnerability scanning, and log analysis. The system aims to provide real-time alerts when CPU usage becomes excessive, generate detailed performance logs, scan networks for potential vulnerabilities, and analyze logs for suspicious activities. By utilizing Python scripts and tools such as nmap, this system ensures that potential security threats are identified and addressed promptly.
+This cybersecurity system has been designed to monitor and enhance the security of a computer system through 
+automated performance tracking, vulnerability scanning, and log analysis. The system aims to provide 
+real-time alerts when CPU usage becomes excessive, generate detailed performance logs, scan networks for
+ potential vulnerabilities, and analyze logs for suspicious activities. By utilizing Python scripts and 
+ tools such as nmap, this system ensures that potential security threats are identified and addressed 
+ promptly.
 
 ## Key Features: 
 - Performance Log: Tracks CPU and memory usage, generates logs, and provides alerts for high CPU usage.
@@ -32,7 +37,8 @@ This cybersecurity system has been designed to monitor and enhance the security 
 - Tracks CPU and memory usage and generates a performance log file. Alerts are printed for high CPU usage.
     Run: python "Scripts/performance_log.py"
 - Performs a network scan on a target using nmap and captures packets to monitor source and destination IPs.
-    Run: python "Scripts/scan.py"
+    On Linux and MacOS run: sudo python "Scripts/summary_report.py" (Type password if prompted)
+    On Windows from an Admin account run: sudo python scan.py
 - Analyzes log files for errors or failed events and generates a summary report.
     Run: python "Scripts/summary_report.py"
 - Sends an email notification if CPU usage exceeds a specified threshold.
